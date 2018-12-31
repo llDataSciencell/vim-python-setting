@@ -10,12 +10,10 @@ NeoBundle 'davidhalter/jedi-vim'
 call neobundle#end()
 
 :syntax on
-filetype on            " enables filetype detection
+"filetype on            " enables filetype detection
 filetype plugin indent on     " enables filetype specific plugins
 :set spell
 
-"コピーアンドペーストの設定　そのまま貼り付ける
-:set paste
 
 "文字コードをUFT-8に設定
 set fenc=utf-8
