@@ -11,6 +11,12 @@ NeoBundle 'Shougo/neocomplete.vim'
 NeoBundle 'nvie/vim-flake8'
 NeoBundle 'jmcantrell/vim-virtualenv'
 NeoBundle 'scrooloose/syntastic'
+" solarized
+"NeoBundle 'altercation/vim-colors-solarized'
+"NeoBundle 'croaker/mustang-vim'
+"NeoBundle 'nanotech/jellybeans.vim'
+"NeoBundle 'tomasr/molokai'
+NeoBundle 'ujihisa/unite-colorscheme'
 call neobundle#end()
 
 let g:syntastic_python_checkers = ['pyflakes', 'pep8']
@@ -76,3 +82,16 @@ set wrapscan
 set hlsearch
 " ESC連打でハイライト解除
 nmap <Esc><Esc> :nohlsearch<CR><Esc>
+
+colorscheme murphy
+if &term =~ "xterm-256color" || "screen-256color"
+  set t_Co=256
+  set t_Sf=[3%dm
+  set t_Sb=[4%dm
+elseif &term =~ "xterm-color"
+  set t_Co=8
+  set t_Sf=[3%dm
+  set t_Sb=[4%dm
+endif
+
+hi PmenuSel cterm=reverse ctermfg=33 ctermbg=222 gui=reverse guifg=#3399ff guibg=#f0e68c
