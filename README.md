@@ -15,3 +15,17 @@ escキーを押して、以下を入力
 ```
 pip install jedi
 
+## NeoVimのインストール
+
+for linux
+```bash
+curl -LO https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage
+chmod u+x nvim.appimage
+./nvim.appimage
+```
+
+for MacOS
+```bash
+brew install neovim
+```
+

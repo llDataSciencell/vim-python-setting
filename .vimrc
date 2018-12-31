@@ -7,6 +7,9 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 NeoBundle 'Shougo/unite.vim'
 NeoBundle 'Shougo/neosnippet.vim'
 NeoBundle 'davidhalter/jedi-vim'
+NeoBundle 'Shougo/neocomplete.vim'
+NeoBundle 'nvie/vim-flake8'
+NeoBundle 'jmcantrell/vim-virtualenv'
 call neobundle#end()
 
 :syntax on
