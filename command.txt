@@ -1,0 +1,11 @@
+# Tips
+- GVim(OS X なら MacVim)
+
+# command
+- /word  前方検索
+- ?word  後方検索
+- shift + {  先頭へ行く
+- dd  行全体を削除
+- . ドットコマンド　繰り返しをするコマンド xの後に.とか打つと文字を消す操作を繰り返す
+# Playground
+- aaaaaaaaaaaaaallllllllllllldddddddddddddllllllllllllldddddddddd
