@@ -10,7 +10,10 @@ NeoBundle 'davidhalter/jedi-vim'
 NeoBundle 'Shougo/neocomplete.vim'
 NeoBundle 'nvie/vim-flake8'
 NeoBundle 'jmcantrell/vim-virtualenv'
+NeoBundle 'scrooloose/syntastic'
 call neobundle#end()
+
+let g:syntastic_python_checkers = ['pyflakes', 'pep8']
 
 :syntax on
 "filetype on            " enables filetype detection

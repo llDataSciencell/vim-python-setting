@@ -15,7 +15,13 @@ escキーを押して、以下を入力
 ```
 pip install jedi
 
-## NeoVimのインストール
+## Pythonのコードを自動整形(保存した時に、強調表示)
+
+```bash
+pip install pep8 pyflakes
+```
+
+## NeoVimのインストール(今回は使わないので、参考程度)
 
 for linux
 ```bash
